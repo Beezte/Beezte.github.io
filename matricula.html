@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFPE - HISTÓRIA DO CAMPUS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="cabecalho">
+        <img src="arquivos/logo-reitoria.png" alt="LOGOIFPE">
+    </div>
+    <div class="menu-principal">
+        <a href="index.html">Página Inicial</a> &nbsp; | &nbsp; <a href="historia.html">História do Campus</a> &nbsp; | &nbsp; <a href="imagens.html">Imagens</a> &nbsp; | &nbsp; <a href="noticias.html">Notícias</a> &nbsp; | &nbsp; <a href="matricula.html">Matricule-se</a>
+    </div>
+    <hr class="menu-hr">
+</header>
+
+<div class="divinterna">
+    <div class="img-matriculese">
+        <img src="arquivos/matricula.png" alt="" srcset="">
+        <form action="enviomatricula.php" method="POST">
+<!--            INFORMAÇÕES PESSOAIS-->
+            <fieldset class="fieldset-infopessoal">
+                <p class="cor-infopessoal">Informações Pessoais</p>
+                <hr id="hr-infopessoal">
+                <br>
+                <label for="nome" class="label-titulo">Nome</label>
+                <input type="text" id="nome" name="nome" class="estiloInputs" size="80"/>
+                <br>
+                <label for="CPF" class="label-titulo">CPF</label>
+                <input type="text" name="CPF" id="CPF" maxlength="14" size="11" class="estiloInputs" placeholder="000.000.000-00">
+                <br>
+                <label for="email" class="label-titulo">E-mail</label>
+                <input type="email" name="email" id="email" class="estiloInputs" size="80">
+                <br>
+                <label for="datanascimento" class="label-titulo">Data de nascimento</label>
+                <input type=date name="datanascimento" id="datanascimento" class="estiloInputs">
+                <br>
+                <label class="label-titulo">Cidade</label>
+                <label>
+                <select name="cidade" class="estiloInputs">
+                    <option value="nulo">&#32;</option>
+                    <option value="Recife">Recife</option>
+                    <option value="Olinda">Olinda</option>
+                    <option value="Jaboatão do Guararapes">Jaboatão dos Guararapes</option>
+                </select>
+                </label>
+                <br>
+                <label class="label-titulo">Escolaridade</label> <br>
+                <label>
+                    <div class="select">
+                        <select name="escolaridade" class="estiloInputs">
+                            <option value="nulo">&#32;</option>
+                            <option value="Nível Fundamental">Nivel Fundamental</option>
+                            <option value="Nível Médio">Nível Médio</option>
+                            <option value="Nível Superior">Nível Superior</option>
+                        </select>
+                    </div>
+                </label>
+<!--                <label for="nivelfundamental"> <input type="radio" name="escolaridade" id="nivelfundamental" class="radioOptions"> Nível Fundamental</label><br>-->
+<!--                <label for="nivelmedio"> <input type="radio" name="escolaridade" id="nivelmedio" class="radioOptions"> Nivel Médio</label><br>-->
+<!--                <label for="nivelsuperior"> <input type="radio" name="escolaridade" id="nivelsuperior" class="radioOptions"> Nivel Superior</label>-->
+            </fieldset>
+
+<!--            INFORMAÇÕES ACADEMICA-->
+            <fieldset class="fieldset-infoacademica">
+                <p class="cor-infoacademica">Informações para o Sistema Acadêmico</p>
+                <hr id="hr-infoacademica">
+                <br>
+                <label for="loginmatricula" class="label-titulo">Login (para o sistema de matrícula)</label>
+                <input type="text" id="loginmatricula" name="loginmatricula" class="estiloInputs" size="25"/>
+                <br>
+                <label for="senhamatricula" class="label-titulo">Senha (para o sistema de matrícula)</label>
+                <input type="password" id="senhamatricula" name="senhamatricula" class="estiloInputs" size="10"/>
+                <br>
+                <label for="arquivocracha" class="label-titulo">Adicione sua foto para o crachá</label>
+                <input type="file" id="arquivocracha" name="arquivocracha" class="estiloInputs" size="10"/>
+            </fieldset>
+
+<!--            INFORMAÇÕES SOBRE O CURSO-->
+            <fieldset class="fieldset-infocurso">
+                <p class="cor-infocurso">Informações sobre o Curso</p>
+                <hr id="hr-infocurso">
+                <br>
+                <label class="label-titulo">Escolha o Curso</label>
+                <label>
+                    <div class="select">
+                    <select name="curso" class="estiloInputs">
+                        <option value="nulo">&#32;</option>
+                        <option value="Administração">Administração</option>
+                        <option value="Química">Química</option>
+                        <option value="Rede de Computadores">Rede de Computadores</option>
+                        <option value="Sistemas da Informação">Sistemas da Informação</option>
+                        <option value="Física">Física</option>
+                        <option value="Publicidade">Publicidade</option>
+                    </select>
+                    </div>
+                </label>
+                <br>
+                <label for="motivo" class="label-titulo">Porque você deseja cursar esse curso?</label>
+                <textarea id="motivo" name="motivo"
+                          rows="80" cols="80" spellcheck="true" class="estiloInputs">
+                </textarea>
+            </fieldset>
+
+            <br><br><br>
+
+            <input type="submit" value="Enviar" class="botaoenviar">
+            <input type="reset" value="Limpar" class="botaoreset">
+
+        </form>
+
+    </div>
+</div>
+
+<div class="rodape">
+    <footer>
+        <a href="https://facebook.com"><img src="arquivos/iconFacebook.png" class="icons-redes" alt="facebook"></a>
+        <a href="https://instagram.com"><img src="arquivos/iconInstagram.png" class="icons-redes" alt="instagram"></a>
+        <a href="https://tiktok.com"><img src="arquivos/iconTikTok.png" class="icons-redes" alt="tiktok"></a>
+        <a href="https://twitter.com"><img src="arquivos/iconTwitter.png" class="icons-redes" alt="twitter"></a>
+        <a href="https://youtube.com"><img src="arquivos/iconYouTube.png" class="icons-redes" alt="youtube"></a>
+        <a href="https://whatsapp.com"><img src="arquivos/iconWhatsapp.png" class="icons-redes" alt="wpp"></a>
+        <a href="https://telegram.com"><img src="arquivos/iconTelegram.png" class="icons-redes" alt="telegram"></a>
+        <hr class="linha-rodape">
+        <h4 class="rodape-texto">&copy; 2023 - Desenvolvido por alunos do Projeto Ninho</h4>
+    </footer>
+</div>
+
+</body>
+</html>

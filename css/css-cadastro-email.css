@@ -1,0 +1,132 @@
+@font-face {
+    font-family: SF Pro Text;
+    src: local('SF Pro Text'),
+    url('/fonts/SF-Pro-Text-Regular.otf') format('otf');
+}
+@font-face {
+    font-family: SF Pro Text Light;
+    src: local('SF Pro Text Light'),
+    url('/fonts/SF-Pro-Text-Light.otf') format('otf');
+}
+
+*{
+    width: 1920px;
+    padding: 0;
+    margin: 0;
+}
+.body-container{
+    width: 1920px;
+}
+.header-container{
+    background-color: #0D43FC;
+    padding: 20px;
+    width: auto;
+    border-radius: 0 0 15px 15px;
+}
+.header-img{
+    width: 15%;
+    margin: auto;
+}
+.container-title h1{
+    padding-top: 106px;
+    color: #0D43FC;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container-title p{
+    color: #0D43FC;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form-bg{
+    margin: auto;
+    margin-top: 55px;
+    padding-top: 65px;
+    padding-left: 99px;
+    width: 1168.053px;
+    height: 790px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #0D43FC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.input-cadastro{
+    margin-top: 5px;
+    margin-bottom: 27px;
+    width: 971px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+    background: #FFF;
+    font-family: "SF Pro Rounded-Regular", Helvetica, serif;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 10px;
+}
+.container-form label{
+    color: #FFF;
+    font-family: SF Pro Text Light, monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+.radio {
+    margin: 0.5rem;
+}
+.radio input[type="radio"] {
+    position: fixed;
+    opacity: 0;
+}
+.radio input[type="radio"] + .radio-label:before {
+    content: '';
+    background: #f4f4f4;
+    border-radius: 100%;
+    border: 1px solid #b4b4b4;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    position: relative;
+    top: -0.2em;
+    margin-right: 1em;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+}
+.radio input[type="radio"]:checked + .radio-label:before {
+    background-color: #3197ee;
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type="radio"]:focus + .radio-label:before {
+    outline: none;
+    border-color: #3197ee;
+}
+.radio input[type="radio"]:disabled + .radio-label:before {
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+    border-color: #b4b4b4;
+    background: #b4b4b4;
+}
+.radio input[type="radio"] + .radio-label:empty:before {
+    margin-right: 0;
+}
+.enviar-btn{
+    width: 260px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+    background: #FCFC2F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

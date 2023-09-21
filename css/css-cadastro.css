@@ -1,0 +1,109 @@
+@font-face {
+    font-family: SF Pro Text;
+    src: local('SF Pro Text'),
+    url('/fonts/SF-Pro-Text-Regular.otf') format('otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-y: hidden;
+}
+.teste {
+    overflow: hidden;
+}
+.body-container{
+    min-height: 50vh !important;
+    width: auto;
+    height: auto;
+}
+.linhas{
+    display: flex;
+    flex-flow: row wrap;
+}
+.coluna-esquerda{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+
+}
+.coluna-direita{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    background-color: #0D43FC;
+    padding: 20px;
+    width: auto;
+    border-radius: 0 0 15px 15px;
+}
+.header-img{
+    width: 15%;
+    margin: auto;
+}
+.img-cadastro-fundo{
+    margin: 0;
+    padding: 0;
+    width: 120%;
+}
+.cadastro-container{
+    width: 600px;
+    height: 271px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background: #0D43FC;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.cadastro-titulo{
+    width: 600px;
+    height: 69px;
+    padding-top: 16px;
+    color: #FCFC2F;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cadastro-subtitulo{
+    width: 600px;
+    height: 32px;
+    padding-top: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.div-botoes{
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+}
+.botoes-registro{
+    width: 187px;
+    height: 57px;
+    padding: 10px 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FCFC2F;
+    background: #FCFC2F;
+    color: #0D43FC;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 85px;
+    margin-left: 85px;
+}
+

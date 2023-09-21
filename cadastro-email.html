@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>FY | Cadastro </title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kawã Bazante">
+    <meta name="description" content="Fundação Yebá">
+    <meta name="keywords" content="Fundação Yebá">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="./css/css-cadastro-email.css"/>
+    <link rel="stylesheet" href="./css/css-header-cadastro.css"/>
+</head>
+
+<body>
+<header>
+    <div class="header-container">
+        <div class="header-img">
+            <a href="index.html"><img src="./img/Fundacao-Yeba-logo-amarela.png" alt="logo-festival"></a>
+        </div>
+    </div>
+</header>
+
+    <div class="container-cadastro">
+        <div class="container-title">
+            <h1>Cadastro</h1>
+            <p>Para realizar o seu cadastro na Fundação Yebá, é preciso que fornecam alguns dados pessoais.<br>Fique tranquilxs, todos os seus dados são mantidos em completo sigilo.</p>
+        </div>
+        <div class="form-bg">
+            <div class="container-form">
+                <form action="cadastro-email.php" method="POST">
+                    <label for="nome">Nome completo</label><br>
+                    <input type="text" name="nome" id="nome" class="input-cadastro" placeholder="exemplo@exemplo.com" required>
+                    <br>
+
+                    <label for="cpf">CPF</label><br>
+                    <input type="text" name="cpf" id="cpf" class="input-cadastro" placeholder="000.000.000-00" required>
+                    <br>
+
+                    <label for="datadenascimento">Data de nascimento</label><br>
+                    <input type="date" name="datadenascimento" id="datadenascimento" class="input-cadastro" required>
+                    <br>
+
+                    <label for="seletor-genero">Selecione o seu gênero</label>
+                        <div id="seletor-genero">
+                            <div class="radio">
+                                <input id="radio-1" name="radio" type="radio" >
+                                <label for="radio-1" class="radio-label">Masculino</label>
+                            </div>
+
+                            <div class="radio">
+                                <input id="radio-2" name="radio" type="radio">
+                                <label  for="radio-2" class="radio-label">Feminino</label>
+                            </div>
+
+                            <div class="radio">
+                                <input id="radio-3" name="radio" type="radio">
+                                <label for="radio-3" class="radio-label">Neutro</label>
+                            </div>
+                            <div class="radio">
+                                <input id="radio-4" name="radio" type="radio">
+                                <label for="radio-4" class="radio-label">Não Binárie</label>
+                            </div>
+                    </div>
+
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="input-cadastro" required>
+                    <br>
+
+                    <label for="senha">Senha</label><br>
+                    <input type="password" name="senha" id="senha" class="input-cadastro" required>
+                    <br>
+
+                    <label for="senharepetir">Repita sua senha</label><br>
+                    <input type="password" name="senharepetir" id="senharepetir"  class="input-cadastro" required>
+                    <br>
+
+                    <center>
+                    <input type="submit" class="enviar-btn" value="Enviar">
+                    </center>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

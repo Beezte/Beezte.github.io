@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@font-face {
+    font-family: SF Pro Display-Bold;
+    src: local(SF-Pro-Display-Bold), url(fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+    font-family: SF Pro Display-Medium;
+    src: local(SF-Pro-Display-Medium), url(fonts/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+    font-family: c;
+    src: local(SpaceMono-Bold), url(fonts/SpaceMono-Bold.ttf);
+}
+@font-face {
+    font-family: Space Mono-Regular;
+    src: local(SpaceMono-Regular), url(fonts/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: SF Pro Rounded-Regular;
+    src: local(SF-Pro-Rounded-Regular), url(fonts/SF-Pro-Rounded-Regular.otf);
+}
+
+@font-face{
+    font-family: Dalek Pinpoint-Bold;
+    src: local(DalekPinpointBold), url(fonts/DalekPinpointBold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.box {
+    position: relative;
+    width: 100vh;
+    height: 93px;
+}
+.box .header {
+    position: fixed;
+    width: 1540px;
+    height: 93px;
+    top: 0;
+    left: 0;
+    background-color: #0D43FC;
+    border-radius: 0 0 15px 15px;
+}
+.box .rectangle {
+    position: absolute;
+    width: 248px;
+    height: 30px;
+    top: 24px;
+    left: 596px;
+    object-fit: cover;
+}
+

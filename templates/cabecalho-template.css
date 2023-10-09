@@ -1,0 +1,67 @@
+/*COPIE E COLE ESSE CODIGO QUE ESTÁ NA LINHA 3
+/*<link rel="stylesheet" href="templates/cabecalho-template.css">*/
+
+@font-face {
+    font-family: SF Pro Display;
+    src: local(SF Pro Display), url(fonts/SF-Pro-Display-Regular.otf);
+}
+
+*{
+    /*width: 1916px;*/
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header-bg{
+    width: auto;
+    height: 133px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 15px 15px;
+    background: #FCFC2F;
+}
+.header-img{
+    width: 35%;
+    margin-left: 45px;
+    padding-top: 20px;
+}
+.link-texto{
+    text-decoration: none;
+    color: #272727;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 370px;
+    height: 24.293px;
+    flex-shrink: 0;
+}
+.menu-principal-txt{
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.minha-conta{
+    margin-left: 170px !important;
+    margin-top: -30px;
+}
+.icon-menu{
+    margin-left: 1150px;
+    padding: 10px;
+}
+.perfil-texto{
+    margin-left: 990px !important;
+    text-decoration: none;
+    color: #0D43FC;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.header-conteudos{
+    padding-top: 10px;
+}

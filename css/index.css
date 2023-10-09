@@ -30,37 +30,39 @@
     margin: 0;
     width: auto;
 }
-.gb-banner{
-    margin-top: 50px;
-}
-.gb-banner-img{
-    width: 1300px;
-    height: 300px;
-    border-radius: 15px;
-}
+
 .areas-container{
-    margin-top: 80px;
-}
-.area-bg{
-    margin-left: 114px;
-    width: 1300px;
-    height: 400px;
-    border-radius: 15px;
-    background: #0D43FC;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
 }
 .area-conteudos{
     padding: 15px;
 }
-.titulo-conteudos{
-    margin-left: 450px;
-    color: #FCFC2F;
+.row1 {
+    display: flex;
+}
+.ongs-all-container{
+    align-items: center;
+    width: 1170px;
+    height: 540.541px;
+    flex-shrink: 0;
+}
+.column1 {
+    flex: 25%;
+    padding: 5px 5px 20px;
+}
+.area-texto-principal{
+    margin-bottom: 25px;
+}
+.h1-texto{
+    color: #0C0C0C;
     font-family: Space Mono;
-    font-size: 32px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
+
 .linha{
     display: flex;
     flex-flow: row wrap;
@@ -83,7 +85,6 @@
     font-weight: 300;
     line-height: normal;
 }
-
 .causa-saude{
     margin-top:30px;
     margin-left: 50px;
@@ -102,10 +103,9 @@
     font-weight: 300;
     line-height: normal;
 }
-
 .causa-direitos-humanos{
     margin-top:-290px;
-    margin-left: 470px;
+    margin-left: 450px;
     width: 274px;
     height: 131.825px;
     flex-shrink: 0;
@@ -120,10 +120,9 @@
     font-weight: 300;
     line-height: normal;
 }
-
 .causa-educacao{
     margin-top:30px;
-    margin-left: 470px;
+    margin-left: 450px;
     width: 274px;
     height: 131.825px;
     flex-shrink: 0;
@@ -138,7 +137,6 @@
     font-weight: 300;
     line-height: normal;
 }
-
 .causa-lgbt{
     margin-top:-293px;
     margin-left: 950px;
@@ -156,7 +154,6 @@
     font-weight: 300;
     line-height: normal;
 }
-
 .causa-ajuda-humanitaria{
     margin-top:30px;
     margin-left: 950px;
@@ -174,57 +171,72 @@
     font-weight: 300;
     line-height: normal;
 }
-
-.area-ongs-bg{
-    margin-top: 50px;
-    width: 1300px;
-    height: 1125px;
-    border-radius: 15px;
+.acoes-header{
+    margin-left: 170px !important;
+    margin-top: -30px;
+}
+.button-criar-entrar{
+    width: 78px;
+    height: 38.869px;
+    margin-top: -15px !important;
+    margin-left: 1150px;
+    border: none;
+    border-radius: 2px;
     background: #0D43FC;
-}
-.area-conteudos-ongs{
-    padding: 15px;
-}
-.container-conteudos-titulo-ongs{
-    padding: 15px;
-}
-.titulo-ongs{
     color: #FFF;
     text-align: center;
-    font-family: Space Mono;
-    font-size: 32px;
+    font-family: SF Pro Display;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
-.row1 {
-    display: flex;
+.perfil-texto-criarconta{
+    width: 76px;
+    height: 17px;
+    padding-top: 13px;
+    padding-left: 1000px;
+    color: #272727;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.column1 {
-    flex: 33.33%;
-    padding: 5px 5px 20px;
+.site-abertura{
+    width: auto;
+    height: 613.394px;
+    border-radius: 0px 0px 15px 15px;
 }
-.seletor-pagina{
-    margin-top: 35px;
-    width: 250px;
-    height: 21px;
+.img-site-abertura {
+    margin-top: -10px;
+    width: 1519px;
+    height: 620px;
+    border-radius: 0px 0px 15px 15px;
+}
+.div-botoes{
+    padding: 0; !important;
+    margin: 0;
+}
+.div-botao-entrar{
+    margin-top: -15px;
+}
+.btn-criar-entrar{
+    margin-left: 1110px;
+    width: 187px;
+    height: 57px;
+    padding: 10px 25px;
     flex-shrink: 0;
-}
-.txt-seletor-pagina-select{
-    margin: 5px;
-    color: #FFF;
-    font-family: Space Mono;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.txt-seletor-pagina{
-    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #0D43FC;
+    background: #0D43FC;
     color: #FCFC2F;
-    font-family: Space Mono;
+    text-align: center;
+    font-family: SF Pro Rounded;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
+    text-decoration: none;
 }

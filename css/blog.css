@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-container{
+    background-color: #0D43FC;
+    padding: 20px;
+    width: auto;
+    border-radius: 0 0 15px 15px;
+}
+.header-img{
+    width: 15%;
+    margin: auto;
+}
